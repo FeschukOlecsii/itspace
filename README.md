@@ -3,6 +3,7 @@
 # 2. docker-compose up -d --build
 # 3.docker-compose exec app composer install
 # 4.docker-compose exec app php artisan migrate
+# (Якщо пише що немає файлів для міграції то: docker-compose exec app php artisan migrate:refresh )   
 # 5.npm i
 # 6.npm run dev
 # Викликати work
